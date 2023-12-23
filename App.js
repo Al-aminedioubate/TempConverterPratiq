@@ -8,7 +8,9 @@ export default function App() {
   return (
     <ImageBackground source={coldImg} style={s.container}>
       <View>
-        <Text>Lamine</Text>
+        <Text>ToDo: Temperature Display</Text>
+        <Text>ToDo: Temperature Input</Text>
+        <Text>ToDo: Temperature Button</Text>
       </View>
     </ImageBackground>
   );
