@@ -4,13 +4,17 @@ import hotImg from "./assets/hot.png";
 
 import { s } from "./app.style";
 
+import { TemperatureDisplay } from "./components/temperatureDisplay/temperatureDisplay";
+import { ButtonConvert } from "./components/ButtonConvert/ButtonConvert";
+import { Input } from "./components/Input/input";
+
 export default function App() {
   return (
     <ImageBackground source={coldImg} style={s.container}>
       <View>
-        <Text>ToDo: Temperature Display</Text>
-        <Text>ToDo: Temperature Input</Text>
-        <Text>ToDo: Temperature Button</Text>
+        <TemperatureDisplay></TemperatureDisplay>
+        <Input></Input>
+        <ButtonConvert></ButtonConvert>
       </View>
     </ImageBackground>
   );
