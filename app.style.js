@@ -6,6 +6,10 @@ const s = StyleSheet.create({
     justifyContent: "center",
     padding: 20,
   },
+  workspace: {
+    height: 300,
+    justifyContent: "space-evenly",
+  },
 });
 
 export { s };

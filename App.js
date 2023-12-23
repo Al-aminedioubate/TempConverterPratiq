@@ -11,7 +11,7 @@ import { Input } from "./components/Input/input";
 export default function App() {
   return (
     <ImageBackground source={coldImg} style={s.container}>
-      <View>
+      <View style={s.workspace}>
         <TemperatureDisplay></TemperatureDisplay>
         <Input></Input>
         <ButtonConvert></ButtonConvert>

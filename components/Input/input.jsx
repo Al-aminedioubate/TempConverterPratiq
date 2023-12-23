@@ -4,8 +4,8 @@ import { View } from "react-native";
 
 export function Input(){
    return(
-        <View>
-            <TextInput style={s.btn} placeholder="Entrer la temperature ici..." maxLength={4} keyboardType="numeric"/>
+        <View style={s.container}>
+            <TextInput style={s.txt} placeholder="Entrer la temperature ici..." maxLength={4} keyboardType="numeric"/>
         </View>
    ); 
 }
